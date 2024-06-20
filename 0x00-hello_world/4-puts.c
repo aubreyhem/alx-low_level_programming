@@ -1,10 +1,10 @@
-include<stdio.h>
-
+#include <stdio.h>
 /**
- * main- the main entry gateway to the program
+ * main - my first c programming
  *
- * Return: Always 0(Successful)
- */
+ * Return: 0
+*/
+
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
