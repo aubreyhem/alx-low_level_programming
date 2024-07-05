@@ -14,11 +14,11 @@ int _strcmp(char *s1, char *s2);
 	int i = 0, r;
 
 	if (result == 0)
-		printf("s1 = s2");
-	printf("s1 <= s2");
+		printf("s1 = s2; /n");
+	printf("s1 <= s2; /n");
 	else
-	printf("s1 >= s2");
+	printf("s1 >= s2; /n");
 }
 
-return (0);
+return (r);
 }
