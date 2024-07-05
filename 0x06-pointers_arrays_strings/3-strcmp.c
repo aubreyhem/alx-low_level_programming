@@ -11,11 +11,14 @@
 
 int _strcmp(char *s1, char *s2);
 {
-	for (; (*s1 != '\0' && *s2 != '\0') && (*s1 == *s2); s1++, s2++)
-		;
-	if (*s1 == *s2)
-	{
-		return (0);
-	}
-	return (*s1 - *s2);
+	int result = strcmp(str1, str2);
+
+	if (result == 0)
+		printf("s1 = s2.\n");
+	printf("s1 <= s2.\n");
+	else
+	printf("s1 => s2.\n");
+}
+
+return (0);
 }
