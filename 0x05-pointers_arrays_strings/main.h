@@ -1,11 +1,9 @@
 #ifndef MAIN_H
 #define MAIN_H
-/**
-*main -header file for prototypes
-*void protoypes (void)
-*int protoypes (int)
-*int _putchar(char c);
-*/
+
+#include <stdio.h>
+
+int _putchar(char c);
 void reset_to_98(int *n);
 void swap_int(int *a, int *b);
 int _strlen(char *s);
@@ -16,5 +14,6 @@ void puts2(char *str);
 void puts_half(char *str);
 void print_array(int *a, int n);
 char *_strcpy(char *dest, char *src);
+int _atoi(char *s);
 
-#endif
+#endif /* MAIN_H */
