@@ -1,8 +1,8 @@
 #ifndef MAIN_H
 #define MAIN_H
 /**
- * main -header file for prototypes
- *void protoypes (void)
+*main -header file for prototypes
+*void protoypes (void)
 *int protoypes (int)
 *int _putchar(char c);
 */
