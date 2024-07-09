@@ -34,7 +34,6 @@ int main(void)
 					if (num1 + num2 + num3 + num4 < 35)
 					{
 						putchar(',');
-						putchar(' ');
 					}
 					}
 				}
